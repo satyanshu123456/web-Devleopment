@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<div align="center">
+    <h1>Registration Form</h1>
+    <p>
+        Of course, all submitted information is kept in the strictest confidence.<br>
+        You always retain control of your information with D. W. Simpson & Co.<br>
+        Our services are always at no cost to you.
+    </p>
+</div>
+
+<form>
+
+<table align="center" cellpadding="8">
+
+<tr>
+    <td><label>Name:</label></td>
+    <td><input type="text" name="name" size="40" required></td>
+</tr>
+
+<tr>
+    <td><label>Address:</label></td>
+    <td><input type="text" name="address" size="60" required></td>
+</tr>
+
+<tr>
+    <td><label>City:</label></td>
+    <td>
+        <input type="text" name="city">
+        &nbsp;&nbsp; State/Province:
+        <input type="text" name="state" size="10">
+    </td>
+</tr>
+
+<tr>
+    <td><label>Zip Code:</label></td>
+    <td><input type="text" name="zip" size="15"></td>
+</tr>
+
+<tr>
+    <td><label>Country:</label></td>
+    <td><input type="text" name="country" size="30"></td>
+</tr>
+
+<tr>
+    <td><label>Phone (H):</label></td>
+    <td>
+        <input type="text" name="phone_home">
+        &nbsp;&nbsp; Fax:
+        <input type="text" name="fax">
+    </td>
+</tr>
+
+<tr>
+    <td><label>Phone (W):</label></td>
+    <td>
+        <input type="text" name="phone_work">
+        (if able to speak freely)
+    </td>
+</tr>
+
+<tr>
+    <td><label>Email:</label></td>
+    <td><input type="email" name="email" size="40" required></td>
+</tr>
+
+<tr>
+    <td><label>Company Name:</label></td>
+    <td>
+        <input type="text" name="company" size="40">
+        (optional)
+    </td>
+</tr>
+
+<tr>
+    <td><label>Desired Region:</label></td>
+    <td>
+        <select name="region">
+            <option>Other</option>
+            <option>North America</option>
+            <option>Europe</option>
+            <option>Asia</option>
+        </select>
+        &nbsp;&nbsp; Other:
+        <input type="text" name="other_region" size="30">
+    </td>
+</tr>
+
+<tr>
+    <td valign="top"><label>Professional Designations:</label></td>
+    <td>
+        <input type="checkbox" name="desig"> College Student
+        <input type="checkbox" name="desig"> Actuarial Student
+        <input type="checkbox" name="desig"> ACAS
+        <input type="checkbox" name="desig"> FCAS
+        <input type="checkbox" name="desig"> ASA<br>
+
+        <input type="checkbox" name="desig"> FSA
+        <input type="checkbox" name="desig"> EA
+        <input type="checkbox" name="desig"> CFA
+        <input type="checkbox" name="desig"> MBA
+        <input type="checkbox" name="desig"> MAAA
+        <input type="checkbox" name="desig"> FIA
+        <input type="checkbox" name="desig"> FCIA<br>
+
+        <input type="checkbox" name="desig"> FIAA
+        <input type="checkbox" name="desig"> Financial Engineer
+        <input type="checkbox" name="desig"> M.S.
+        <input type="checkbox" name="desig"> Ph.D.
+        <input type="checkbox" name="desig"> Data Mining
+        <input type="checkbox" name="desig"> Quant
+    </td>
+</tr>
+
+<tr>
+    <td><label>Other Designations:</label></td>
+    <td><input type="text" name="other_desig" size="50"></td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center">
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </td>
+</tr>
+
+</table>
+
+</form>
+<br>
+    <button><a href="../formsinHTML/sub.html">Go to back<-</a></button>
+</body>
+</html>
