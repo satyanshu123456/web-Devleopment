@@ -1,0 +1,175 @@
+#outer {
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  color: blanchedalmond;
+  align-items: center;
+  cursor: pointer;
+  position: sticky;
+  top: 10px;
+  color: black;
+}
+.inner {
+  display: flex;
+  gap: 20px;
+  span,
+  p,
+  button {
+    cursor: pointer;
+    border-radius: 10px;
+  }
+}
+button {
+  position: flex;
+  button: 30px;
+  right: 30px;
+  color: black;
+  background-color: rgb(34, 34, 142);
+}
+#select{
+    display: flex;
+}
+.course{
+    
+
+}
+#heading{
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+}
+#div1{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    gap: 30px;  
+}
+.innerdiv{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: black;
+}
+.row1{
+    gap: 30px;
+}
+.row2{
+    gap: 30px;
+    width: 50px;
+}
+main{
+    padding: 10px;
+}
+form {
+    border: 2px solid #333; 
+    padding: 20px;          
+    border-radius: 10px;    
+    margin: 20px auto;      
+    max-width: 800px;  
+    background-color: rgb(21, 209, 233);     
+}
+#div1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/* ----------------------- */
+.form-container
+{
+    width: 500px;
+    margin: 40px;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.form-container h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 15px;
+
+}
+.row
+{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.inputbox
+{
+    display: flex;
+    flex-direction: column;
+}
+
+label
+{
+    margin-bottom: 5px;
+}
+
+input, select
+{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.footer
+{
+    background-color: rgb(61, 61, 144);
+    color: white;
+    padding: 20px;
+}
+
+.footer-container 
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-box
+{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-box h4
+{
+    margin-bottom: 10px;
+}
+
+.footer-box a 
+{
+
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.footer-logo 
+{
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.footer-box p
+{
+    font-size: 15px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 12px;
+}
