@@ -1,0 +1,32 @@
+:root{
+    --maincolor:white;
+    --subcolor: green;
+    --subcolor1:red;
+}
+
+button{
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 30px;
+    color: var(--maincolor);
+    background-color: blue;
+}
+
+.h2{
+   color: blueviolet;
+}
+
+.h4{
+    color:var(--subcolor);
+}
+
+p{
+color:red;
+}
+th{
+    color:green;
+}
+td{
+    color: red
+}
+ 
