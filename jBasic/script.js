@@ -20,3 +20,10 @@ console.log(p===q);
 
 console.log(typeof p);
 console.log(typeof c);
+
+let a1=45;
+let a2=46;
+let a3=60;
+let a4=62;
+let ans=(a1+a2+a3+a4);
+console.log(ans);
