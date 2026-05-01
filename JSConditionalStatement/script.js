@@ -7,15 +7,17 @@ if (age > 0 && age <= 20) {
 }
 
 // question no.6
-let A = 76;
-if (A > 90) {
+let A = 110;
+if (A > 90 && A<=100){
   console.log("A");
-} else if (A > 75 && A < 90) {
+} else if (A > 75 && A < 90){
   console.log("B");
-} else if (A > 50 && A < 75) {
+} else if (A > 50 && A < 75){
   console.log("C");
-} else {
+} else if(A<50){
   console.log("Fail");
+}else{
+ console.log("out of range")
 }
 
 let data;
