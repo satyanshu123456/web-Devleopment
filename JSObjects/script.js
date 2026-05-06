@@ -67,3 +67,13 @@ let satya = {
 
 console.log(Object.keys(satya));
 console.log(Object.values(satya));
+console.log(Object.entries(satya));
+
+let ar = [21, 42, 63, 74, 84, 95, 56, 37, 18, 62, 78, 94, 54, 59, 49, 82, 36];
+
+ar.sort((a, b) => a - b);
+console.log(ar);
+
+console.log(ar.find((val) => val === 74));
+console.log(ar.findIndex((val) => val === 56));
+console.log(ar.findLastIndex((val) => val === 59));
