@@ -57,6 +57,12 @@ fd1.forEach((e) => {
   console.log(e[2].profession);
 });
 
+// fd1.map((e,idx) => {
+
+//     console.log(idx);
+//     console.log(e.name);
+// });
+
 let satya = {
   name: "Karan Mehta",
   dob: "1985-12-12",
@@ -77,3 +83,7 @@ console.log(ar);
 console.log(ar.find((val) => val === 74));
 console.log(ar.findIndex((val) => val === 56));
 console.log(ar.findLastIndex((val) => val === 59));
+
+let set = [23, 45, 67, 89, 44, 33, 66, 77, 88, 99, 12, 39, 48, 49];
+console.log(set.filter((val) => val > 20));
+console.log(set.find((val) => val > 20));
