@@ -92,5 +92,5 @@ console.log(set.slice(0, 7));
 
 let ab = "This is Web Development Class";
 console.log(ab);
-console.log(ab.split(" "))
-console.log(ab.split("-"))
+console.log(ab.split(" "));
+console.log(ab.split("-"));
