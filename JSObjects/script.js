@@ -94,3 +94,20 @@ let ab = "This is Web Development Class";
 console.log(ab);
 console.log(ab.split(" "));
 console.log(ab.split("-"));
+
+let str = "this is a String";
+
+console.log(str.charAt(5));
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
+let h = 3.14;
+console.log(h);
+
+console.log(typeof h);
+let b = h.toString();
+console.log(b);
+
+let c = 3.14;
+
+console.log(c.toFixed(5));
