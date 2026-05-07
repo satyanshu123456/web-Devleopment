@@ -17,3 +17,15 @@ function Bulb1GREEN(){
 function Bulb1BLUE(){
     document.getElementById("bulb1").style.backgroundColor = "blue";
 }
+
+document.getElementById("bulb1Color").addEventListener("change" , changeBulbColor);
+
+
+function changeBulbColor(){
+   const color = document.getElementById("bulb1Color").value;
+    document.getElementById("bulb1").style.background = color;
+}
+
+function reset(){
+    window.location.reload();
+}
