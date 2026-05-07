@@ -1,0 +1,30 @@
+.outer{
+    border: 1px solid gray;
+    display: flex;
+    margin: 20px;
+}
+.inner{
+    border: 1px solid gray;
+    margin:5px 0 5px 0;
+
+}
+.a1{
+    display: flex;
+}
+#leftdiv{
+    width: 70%;
+    font-size: x-large;
+    padding: 20px;
+}
+.rightdiv{
+    padding: 20px;
+    font-size: x-large;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b1{
+    
+}
