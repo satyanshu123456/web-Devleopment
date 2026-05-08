@@ -1,0 +1,21 @@
+#bulb1{
+    height:100px;
+    width:100px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.box{
+    height: 30px;
+    width: 50px;
+    border: 1px solid gray;
+}
+.secdiv{
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
