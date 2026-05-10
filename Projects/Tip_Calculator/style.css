@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+.mainDiv{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1b2a; ;
+    margin-top: 100px;
+}
+.a1{
+    width: 200px;
+    height: 34px;
+}

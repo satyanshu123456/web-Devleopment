@@ -1,0 +1,49 @@
+.img{
+    background-image: url(./CalculatorBGImage.png);
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calDiv{
+    height: 450px;
+    width: 340px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+}
+.topDiv{
+    margin: 4px;
+    border: 1px solid gray;
+    height: 130px;
+    /* border-radius: 10px; */
+    background-color: #D1E7DD;
+    /* text-align: end; */
+
+    
+    
+}
+.secDiv{
+    border: 1px solid gray;
+    margin: 4px;
+    height: 304px;
+    background-color: #FCE4EC;;
+}
+.div1{
+    display: flex;
+    padding: 5px;
+    gap: 35px;
+    
+}
+.div2{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: inset;
+}
