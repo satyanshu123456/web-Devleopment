@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Electricity Bill Calculator</title>
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+</head>
+<body>
+ 
+  <h2>Electricity Bill Calculator</h2>
+  <hr/>
+ 
+  <label for="units">Enter Units Consumed:</label><br/>
+  <input type="number" id="units" placeholder="e.g. 320" min="1"/><br/><br/>
+ 
+  <button>Calculate</button>
+
+  <button>Reset</button>
+ 
+  <p>Please enter a valid positive number.</p>
+ 
+  <hr/>
+ 
+  <div>
+    <h3>Bill Details</h3>
+ 
+    <table border="1" cellpadding="8" cellspacing="0">
+      <tr>
+        <th>Slab</th>
+        <th>Units Used</th>
+        <th>Rate (₹/unit)</th>
+        <th>Amount (₹)</th>
+      </tr>
+      <tr>
+        <td>First 50 units</td>
+        <td>0</td>
+        <td>₹0.50</td>
+        <td>₹0.00</td>
+      </tr>
+      <tr>
+        <td>51 – 200 units</td>
+        <td>0</td>
+        <td>₹0.75</td>
+        <td>₹0.00</td>
+      </tr>
+      <tr>
+        <td>201 – 450 units</td>
+        <td>0</td>
+        <td>₹1.20</td>
+        <td>₹0.00</td>
+      </tr>
+      <tr>
+        <td>Above 450 units</td>
+        <td>0</td>
+        <td>₹1.50</td>
+        <td>₹0.00</td>
+      </tr>
+      <tr>
+        <td colspan="3"><b>Subtotal</b></td>
+        <td id="subtotal"><b>₹0.00</b></td>
+      </tr>
+      <tr>
+        <td colspan="3"><b>Surcharge (20%)</b></td>
+        <td id="surcharge"><b>₹0.00</b></td>
+      </tr>
+      <tr>
+        <td colspan="3"><b>Grand Total</b></td>
+        <td id="grand"><b>₹0.00</b></td>
+      </tr>
+    </table>
+  </div>
+ 
+  <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+</body>
+</html>
