@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+.firstMD{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.secMD{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.thirdMD{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.fourthMD{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 9px;
+}
