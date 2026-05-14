@@ -1,20 +1,76 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-.firstMD{
-    border: 1px solid gray;
-    border-radius: 10px;
+.head {
+  width: 100%;
+  height: 60px;
+  top: 0;
+  position: sticky;
+  background-color: blue;
+  z-index: 100;
 }
-.secMD{
-    border: 1px solid gray;
-    border-radius: 10px;
+.firstMD {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
 }
-.thirdMD{
-    border: 1px solid gray;
-    border-radius: 10px;
+.secMD {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
 }
-.fourthMD{
-    border: 1px solid gray;
-    border-radius: 10px;
-    margin-bottom: 9px;
+.thirdMD {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.fourthMD {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 9px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.frm {
+  border: 1px solid gray;
+  margin: 50px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+.totalCode {
+  border: 1px solid gray;
+  margin: 30px;
+  border-radius: 10px;
+}
+.fiveMD {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.sixMD {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.s1{
+    margin-top: 5px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
 }
