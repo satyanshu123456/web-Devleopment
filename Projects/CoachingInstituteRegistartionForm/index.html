@@ -32,9 +32,10 @@
               <input
                 class="form-control border border-black"
                 type="text"
-                id="name"
+                id="FullName"
                 placeholder="Enter your name"
               />
+              <div id="nameError" class="text-danger"></div>
             </div>
             <br />
             <div class="gap-2">
@@ -45,6 +46,7 @@
                 id="email"
                 placeholder="Enter your email"
               />
+              <div id="emailError" class="text-danger"></div>
             </div>
             <br />
             <div class="gap-2">
@@ -55,6 +57,7 @@
                 id="number"
                 placeholder="Enter your number"
               />
+              <div id="numberError" class="text-danger"></div>
             </div>
             <br />
             <div class="gap-2">
@@ -63,7 +66,6 @@
                 class="form-control border border-black"
                 type="date"
                 id="date"
-                placeholder="Enter you DOB"
               />
             </div>
 
@@ -87,8 +89,10 @@
           <div>
             <div class="persD2">
               <div>
-                <label for="qualification">Last Completed Qualification:</label>
-                <select class="" name="qualification" id="qualification">
+                <label for="qualifications"
+                  >Last Completed Qualification:</label
+                >
+                <select class="" name="qualifications" id="qualifications">
                   <option value="#">Select</option>
                   <option value="#1">10th</option>
                   <option value="#2">12th</option>
@@ -153,12 +157,12 @@
               <textarea class="form-control" id="address" rows="3"></textarea>
             </div>
             <div class="mt-2 d-flex gap-1">
-              <h6>City:-</h6>
-              <span>Bhopal</span>
+              <label for="city">City:</label>
+              <input class="form-control" type="text" id="city" />
             </div>
             <div class="mt-2 d-flex gap-1">
-              <h6>Pincode:-</h6>
-              <span>462021</span>
+              <label for="pincode">Pincode:</label>
+              <input class="form-control" type="number" id="pincode" />
             </div>
           </div>
         </div>
@@ -177,11 +181,11 @@
             </div>
             <br />
             <div>
-              <label for="number"> Guardian’s Contact Number:</label>
+              <label for="gnumber"> Guardian’s Contact Number:</label>
               <input
                 class="form-control border border-black"
-                type="number"
-                id="number"
+                type="gnumber"
+                id="gnumber"
               />
             </div>
           </div>
@@ -196,7 +200,7 @@
                 >How did you hear about us?
                 <span class="text-danger">*</span>
               </label>
-              <select>
+              <select name="source" id="source">
                 <option value="select">Select</option>
                 <option value="Friends">Friends</option>
                 <option value="Online Ad">Online Ad</option>
@@ -218,7 +222,13 @@
           </div>
         </div>
         <div class="btn">
-          <button class="btn1 border border-1" onclick="submit()">Submit</button>
+          <button
+            class="btn1 border border-1"
+            type="button"
+            onclick="formSubmit()"
+          >
+            Submit
+          </button>
         </div>
       </div>
     </form>
