@@ -7,4 +7,5 @@ async function GetNewJoke() {
 
   document.getElementById("setup").innerText = data.joke || data.setup;
   document.getElementById("delivery").innerText = data.delivery || "";
+  document.getElementById("punchline").innerText = data.setup || data.punchline;
 }
